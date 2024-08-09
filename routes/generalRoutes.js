@@ -14,13 +14,13 @@ router.get('/contact', function(req, res, next) {
     res.render('contact', { title: 'Express' });
 });
 
-router.get('/salisaviationcityestate', function(req, res, next) {
-    res.render('salisaviationcityestate', { title: 'Express' });
+router.get('/project', function(req, res, next) {
+    res.render('project', { title: 'Express' });
 });
 
 
-router.get('/properties', function(req, res, next) {
-    res.render('properties', { title: 'Express' });
+router.get('/service', function(req, res, next) {
+    res.render('service', { title: 'Express' });
 });
 
 router.get('/salismbora', function(req, res, next) {
